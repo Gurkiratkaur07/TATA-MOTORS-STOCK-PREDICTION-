@@ -1,0 +1,11 @@
+### LSTM Stock Price Prediction for TATA Motors
+
+This project uses an LSTM (Long Short-Term Memory) neural network to predict TATA Motors' stock prices based on historical data.
+
+#### **Key Features:**
+- **Data Preparation**: Cleaned and normalized the stock price data using pandas and NumPy to ensure accurate model training.
+- **LSTM Model**: Built an LSTM neural network using TensorFlow and Keras, incorporating layers for feature extraction and time series prediction.
+- **Model Training**: Trained the model on historical 'Open' prices to predict future prices, using Mean Squared Error as the loss function.
+- **Visualization**: Plotted the predicted vs. actual stock prices to evaluate model performance, and forecasted the next 10 days' prices.
+
+This project demonstrates how deep learning can be applied to time series data for stock price prediction, with a focus on using LSTM networks.
